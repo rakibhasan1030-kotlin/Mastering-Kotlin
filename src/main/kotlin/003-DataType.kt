@@ -21,6 +21,4 @@ fun main(){
     var boolArray : BooleanArray = booleanArrayOf(true, false, true)
     var doubleArray : DoubleArray = doubleArrayOf(1.25,2.69,3.45)
     var charArray : CharArray = charArrayOf('R','V','H')
-
-
 }
