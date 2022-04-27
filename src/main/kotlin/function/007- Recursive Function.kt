@@ -5,7 +5,7 @@ fun main(){
     println(recSum(a, 0))
 }
 
-fun recSum(n : Long, sum : Long) : Long{
+tailrec fun recSum(n : Long, sum : Long) : Long{
     return if(n < 1){
         sum;
     }else{
